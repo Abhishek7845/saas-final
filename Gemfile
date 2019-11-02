@@ -19,8 +19,7 @@ end
 
 gem 'mailgun-ruby', '~>1.2.0', require: 'mailgun'
 #email client
-
-gem 'bootstrap'
+gem 'rails-assets-bootstrap', ">= 4.0.0.alpha.2"
 #github_api
 gem "github_api"
 #twitter
