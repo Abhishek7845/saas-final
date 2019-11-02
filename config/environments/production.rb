@@ -9,9 +9,7 @@ Rails.application.configure do
     :user_name      => ENV['postmaster@sandbox9ca25a57059e46beaacdfb3d318fe2ec.mailgun.org'],
     :password       => ENV['fc165438e897675a994aa74fe0162543-816b23ef-a3736ef4'],
     :authentication => :plain,
-  }}
-
-
+  }
   # Code is not reloaded between requests.
   config.cache_classes = true
 
